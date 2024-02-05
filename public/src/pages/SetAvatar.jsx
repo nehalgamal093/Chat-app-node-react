@@ -9,7 +9,6 @@ import axios from 'axios';
 import { registerRoute } from '../utils/APIRouts';
 import { Buffer } from "buffer"
 
-//"http://localhost:5000/api/auth/setAvatar"
 export default function SetAvatar() {
     const api = 'https://api.multiavatar.com/45678945';
     const navigate = useNavigate();
